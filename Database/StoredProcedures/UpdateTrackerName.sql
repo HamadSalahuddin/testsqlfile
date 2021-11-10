@@ -20,7 +20,7 @@ GO
  *              Changed SP to get the Serial Number from the
  *              Gateway DeviceProperties table. We will update
  *              only the last record created for each device.
- * ******************************************************** */
+ * ********************************************************  */
 CREATE PROCEDURE [dbo].[UpdateTrackerName]
 AS
 BEGIN
