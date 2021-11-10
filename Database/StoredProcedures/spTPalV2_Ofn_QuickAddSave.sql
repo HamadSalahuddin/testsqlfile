@@ -19,7 +19,7 @@ GO
  *                Changed ALTER to CREATE for SVN version.
  *              R.Cole - 05/28/2013: Added PhoneTypeID to Update.
  *                This corrects the issue documented in #4034.
- * ******************************************************** */
+ * *********************************************************/
 create PROCEDURE [dbo].[spTPalV2_Ofn_QuickAddSave] (
 	@iOffenderID INT,
 	@dtBirthday DATETIME = Null,
