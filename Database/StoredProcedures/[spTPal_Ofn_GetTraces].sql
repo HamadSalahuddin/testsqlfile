@@ -35,7 +35,7 @@ BEGIN
    
 	WITH Events_CTE AS  
 (  
-    SELECT DeviceID,  
+    select DeviceID,  
         TrackerNumber,  
         EventTime,  
         EventDateTime,  
@@ -138,6 +138,6 @@ AND
 )
 
 ---- Drop temporary table ----
-DROP Table #tmpEventTraces
+drop Table #tmpEventTraces
 
 END
