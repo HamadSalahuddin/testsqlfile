@@ -13,6 +13,7 @@ GO
 -- Create date: 01-May-2010
 -- Description:	This procedure gets list of all event traces between given dates for
 -- given Offenders belonging to a specific agenies if that traces have been with the area of given radius.
+
 -- =============================================
 ALTER PROCEDURE [dbo].[spTPal_Ofn_GetTraces]
 	-- Add the parameters for the stored procedure here
